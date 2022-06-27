@@ -4,6 +4,5 @@ Exercício de leitura de mookup do curso da Masterclass Flutter.
 
 ## Criadas neste projeto:
 
-<img src="./screen1.png" width="100" height="100">
-![plot](./screen1.png)
-![plot](./tinder.png)
+<img src="./screen1.png" width="100">
+<img src="./tinder.png" width="100">
