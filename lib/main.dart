@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:masterclass_homework_1/pages/login_screen_1.dart';
+import 'package:masterclass_homework_1/pages/login_screen_2.dart';
 
 void main() {
   runApp(const MyApp());
@@ -59,6 +60,17 @@ class _MyHomePageState extends State<MyHomePage> {
                   context,
                   MaterialPageRoute(
                     builder: (context) => const LoginScreen1(),
+                  ),
+                );
+              },
+            ),
+            ElevatedButton(
+              child: const Text('Login - Tinder'),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const LoginScreen2(),
                   ),
                 );
               },
