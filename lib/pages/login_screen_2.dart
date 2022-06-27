@@ -16,7 +16,18 @@ class LoginScreen2 extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            SizedBox(height: MediaQuery.of(context).size.height * 0.28),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(10, 15, 0, 0),
+              child: SizedBox(
+                width: MediaQuery.of(context).size.width,
+                child: IconButton(
+                  alignment: Alignment.centerLeft,
+                  onPressed: (){}, 
+                  icon: const Icon(Icons.arrow_back_ios_rounded, size: 30, color: Colors.white),
+                ),
+              ),
+            ),
+            SizedBox(height: MediaQuery.of(context).size.height * 0.26),
             Image.asset(
               'assets/images/logo_tinder.png',
               width: 180,
