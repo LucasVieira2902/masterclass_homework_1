@@ -44,7 +44,9 @@ class LoginScreen1 extends StatelessWidget {
                 color: ColorPalette.screenOnePrimary,
                 borderRadius: BorderRadius.circular(8),
                 child: InkWell(
-                  onTap: () {},
+                  onTap: () {
+                    Navigator.pop(context);
+                  },
                   borderRadius: BorderRadius.circular(8),
                   splashColor: Colors.white,
                   child: Container(
@@ -71,7 +73,9 @@ class LoginScreen1 extends StatelessWidget {
                 color: Colors.white,
                 borderRadius: BorderRadius.circular(8),
                 child: InkWell(
-                  onTap: () {},
+                  onTap: () {
+                    Navigator.pop(context);
+                  },
                   borderRadius: BorderRadius.circular(8),
                   splashColor: ColorPalette.screenOnePrimary,
                   child: Container(

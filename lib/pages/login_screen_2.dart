@@ -22,12 +22,14 @@ class LoginScreen2 extends StatelessWidget {
                 width: MediaQuery.of(context).size.width,
                 child: IconButton(
                   alignment: Alignment.centerLeft,
-                  onPressed: (){}, 
+                  onPressed: (){
+                    Navigator.pop(context);
+                  }, 
                   icon: const Icon(Icons.arrow_back_ios_rounded, size: 30, color: Colors.white),
                 ),
               ),
             ),
-            SizedBox(height: MediaQuery.of(context).size.height * 0.26),
+            const Spacer(),
             Image.asset(
               'assets/images/logo_tinder.png',
               width: 180,
@@ -83,6 +85,7 @@ class LoginScreen2 extends StatelessWidget {
                 color: Colors.white
               ),
             ),
+            const SizedBox(height: 20),
           ],
         )
       ),

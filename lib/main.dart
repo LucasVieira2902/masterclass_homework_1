@@ -64,6 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 );
               },
             ),
+            const SizedBox(height: 15),
             ElevatedButton(
               child: const Text('Login - Tinder'),
               onPressed: () {
